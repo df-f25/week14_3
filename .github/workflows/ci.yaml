@@ -44,9 +44,4 @@ jobs:
       - name: List the Images
         run: docker image ls
       - name: Push Docker Image on DH
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/g4w13:latest
-
-    
-
-
-
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/w14app3:latest
